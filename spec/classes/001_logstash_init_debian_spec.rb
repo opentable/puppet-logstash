@@ -9,7 +9,8 @@ describe 'logstash', :type => 'class' do
       let :facts do {
         :operatingsystem => distro,
         :kernel => 'Linux',
-        :osfamily => 'Debian'
+        :osfamily => 'Debian',
+        :lsbdistid => 'debian'
       } end
 
       context 'main class tests' do
