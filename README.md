@@ -1,3 +1,8 @@
+# forked copy of 0.4.2
+
+this repo contains a forked copy with dependency on newere file_concat 
+until such time as we are ready to actually update our logstash module
+
 # puppet-logstash
 
 A Puppet module for managing and configuring [Logstash](http://logstash.net/).
